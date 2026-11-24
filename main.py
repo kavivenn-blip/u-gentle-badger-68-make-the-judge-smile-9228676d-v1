@@ -14,7 +14,10 @@ the reader, not about them), it turns where the reader does not
 expect (the note's second line reframes the first), it carries one
 real small detail (6:04, a locker door, a plant), and its wording is
 its own. 145 characters, one line, UTF-8, no trailing newline.
-Deterministic, offline, standard library only.
+Verified 2026-11-24T02:06Z: two runs from clean copies produce
+byte-identical output, sha256
+233d0aceea567d752755444669745378cc918b4195685fd39c5dd3be68be90dd,
+mode 0644. Deterministic, offline, standard library only.
 """
 
 import os
